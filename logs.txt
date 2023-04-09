@@ -1,0 +1,38 @@
+User@DESKTOP-H2S9U4O MINGW64 ~/Desktop/SI_2023_lab1_213088 (master)
+$ git log
+commit 3de73e991d366680fb757a15fba8e034a52fe2ca (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: nikolinanikolovska <nikolina.nikolovskaa@gmail.com>
+Date:   Sun Apr 9 15:31:28 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 973d38c51fd6de34763a24f37a0aaf852479a531
+Merge: 10f4a5e 7dc841d
+Author: nikolinanikolovska <nikolina.nikolovskaa@gmail.com>
+Date:   Sun Apr 9 15:34:59 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 7dc841d422ca8017f507d45f93765226f23f93e2 (origin/bug2, bug2)
+Author: nikolinanikolovska <nikolina.nikolovskaa@gmail.com>
+Date:   Sun Apr 9 15:29:58 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 10f4a5ef32488601f72d7b3d5a7237144fe46200 (origin/bug1, bug1)
+Author: nikolinanikolovska <nikolina.nikolovskaa@gmail.com>
+Date:   Sun Apr 9 15:28:24 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 71b30f33878abb440551fb4f9bc0e0683ecf1d28
+Author: nikolinanikolovska <nikolina.nikolovskaa@gmail.com>
+Date:   Sun Apr 9 15:20:41 2023 +0200
+
+    Add java class
+
+commit 482197f1dd5327172acac5b5316558130499d1d7
+Author: nikolinanikolovska <nikolina.nikolovskaa@gmail.com>
+Date:   Sun Apr 9 15:18:30 2023 +0200
+
+    Initial commit

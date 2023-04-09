@@ -1,0 +1,45 @@
+mkdir SI_2023_lab1_213088 - креираме локален репозиториум
+cd SI_2023_lab1_213088 - влегуваме во истиот
+git init - го иницијализираме 
+git remote add origin https://github.com/nikolinanikolovska/SI_2023_lab1_213088.git- ги поврзуваме локалниот и одалечениот репозиториум
+nano README.md - креираме датотека
+git add README.md -го додаваме на сцена
+git commit -m "Initial commit" - правиме commit
+nano SILab1.java - креираме датотека
+git add SILab1.java -го додаваме на сцена 
+git commit -m "Add java class" -правиме commit
+git push origin master - правиме синхронизација со одалечениот репозиториум
+git brach bug1 -креираме нова гранка
+git branch bug2 -креираме нова гранка
+git branch bug3 -креираме нова гранка
+git checkout bug1 -се префрламе на гранката bug1
+nano SILab1.java - ја отвораме датотеката и ја поправаме првата грешка
+git add SILab1.java
+git commit -m "Fix wrong loop for reading"
+git checkout bug2 -се префрламе на гранката bug2
+nano SILab1.java - ја отвораме датотеката и ја поправаме втората грешка
+git add SILab1.java
+git commit -m "Fix wrong condition in filterOddNumbers"
+git checkout bug3 -се префрламе на гранката bug3
+nano SILab1.java - ја отвораме датотеката и ја поправаме третата грешка
+git add SILab1.java
+git commit -m "Fix method sumEvenNumbers"
+git push origin --all -правиме синхронизација со одалечениот репозиториум
+git checkout master -се префрламе на гранката master
+git merge bug1 -ја спојуваме гранката bug1 со master, не јавува конфликт и спојувањето е со fast-forward стратегија
+git push origin --all
+git merge bug2 -ја спојуваме гранката bug2 со master, не јавува конфилкт и спојувањето е со recursive merge стратегија
+git push origin --all
+git checkout bug3 - се префрламе на гранката bug3
+git rebase master -ја спојуваме гранката со bug3
+git checkout master -се префрламе на гранката master 
+git merge bug3 -ја спојуваме гранката bug3 со master,не јавува конфликт и спојувањето е со fast-forward стратегија 
+git push origin --all - правиме синхронизација, bug3 не се синхронизира
+git push origin bug3 --force -насилна синхронизација на bug3
+nano logs.txt -креираме датотека во која го ставаме излезот од командата: git log
+git add logs.txt 
+git add 213088.txt
+git commit -m "Final commit"
+git push origin --all
+
+
